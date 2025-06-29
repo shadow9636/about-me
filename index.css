@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width:none;
+    
+}                     
+
+                     /* napbar */
+.nap{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0vh;
+    z-index: 1;
+    background-color: white;
+}
+.icon{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 2.5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    }
+.seed{
+    height: 8vh;
+    display: flex;
+    position: absolute;
+    left: 12vw;
+}
+#seed{
+    height: 52px;
+    width: 80px;
+
+}
+                           /* namastey */
+.namaste{
+    height: 50vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top: 4vh;
+    margin-left: 3vw;
+}
+
+#hello{
+    font-size:25px;
+}
+#name{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(204, 32, 55);
+}
+#iam{
+    font-size: 25px;
+    margin-top: 1vh;
+}
+#bca{
+     font-size: 25px;
+     display:flex;
+     position: relative;
+     left: 20vw;
+     bottom: 4vh;
+     color: rgb(204, 32, 55);
+     font-weight: 600;
+
+}
+#hireme{
+    height: 40px;
+    width: 100px;
+    border: hidden;
+    color: aliceblue;
+    background-color: rgb(204, 32, 55);
+    border-radius: 15px 40px 80px 100px;
+}
+                               /* about me */
+.about{
+    font-size: 30px;
+    display: flex;
+    position:relative;
+    justify-content: center;
+    font-weight: 600;
+    
+}
+.who{
+    font-size: 20px;
+    display: flex;
+    position:relative;
+    justify-content: center;
+    font-weight: 300;
+    color: rgb(212, 5, 32,1);
+}
+#who{
+    width: 50px;
+    height: 0px ;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    top: 2vh;
+}
+                            /* image */
+.myimage  {
+    width: 300px;
+    height: 400px;
+    margin-left:15vh ;
+    border-radius: 100px;
+    
+}                          
+.myimage:hover{
+    width: 305px;
+    height: 405px;
+    transform:translateX(-1vw)
+    translateY(1)
+}
