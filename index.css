@@ -193,7 +193,7 @@ body{
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:center;
     
     
 }                                    
@@ -215,12 +215,15 @@ body{
 
 }
 
-/* .tenth{
+ .tenth{
     height: 100px;
     width: 100px;
     border-radius: 100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
        
-}    */
+}   
 .gradution{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(190, 230, 12);
