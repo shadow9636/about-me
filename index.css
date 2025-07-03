@@ -221,7 +221,9 @@ body{
     border-radius: 100px;
     display: flex;
     position: relative;
+    align-content: center;
     justify-content: center;
+    align-items: center;
 }   
 .gradution{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
